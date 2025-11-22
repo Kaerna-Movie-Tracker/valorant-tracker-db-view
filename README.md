@@ -47,11 +47,7 @@ The project is configured for automatic deployment to GitHub Pages via GitHub Ac
      - `VITE_SUPABASE_URL` - Your Supabase project URL
      - `VITE_SUPABASE_ANON_KEY` - Your Supabase anonymous key
 
-3. **Update Base Path (if needed):**
-   - If your repository name is different from `parser-view`, update the `base` path in `vite.config.js`
-   - Change `/parser-view/` to `/{your-repo-name}/`
-
-4. **Deploy:**
+3. **Deploy:**
    - Push to `main` or `master` branch
    - The workflow will automatically build and deploy to GitHub Pages
    - Your site will be available at: `https://{username}.github.io/{repo-name}/`
