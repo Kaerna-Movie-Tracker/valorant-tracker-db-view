@@ -34,9 +34,12 @@ The project is configured for automatic deployment to GitHub Pages via GitHub Ac
 
 ### Setup Instructions:
 
-1. **Enable GitHub Pages:**
-   - Go to your repository Settings → Pages
-   - Under "Source", select "GitHub Actions"
+1. **Enable GitHub Pages (IMPORTANT - Do this first!):**
+   - Go to your repository on GitHub
+   - Click **Settings** → **Pages** (in the left sidebar)
+   - Under **"Source"**, select **"GitHub Actions"** (NOT "Deploy from a branch")
+   - If you don't see "GitHub Actions" option, make sure you have admin access to the repository
+   - Save the settings
 
 2. **Add Secrets:**
    - Go to Settings → Secrets and variables → Actions
